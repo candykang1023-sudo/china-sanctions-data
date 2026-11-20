@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-21 03:19:48+08:00",
+ "match": {
+  "threshold": 85,
+  "scorer": "max(ratio, token_sort_ratio) on normalized names; names under 4 chars exact only"
+ },
+ "sources": [
+  {
+   "source": "CSL",
+   "name": "U.S. Consolidated Screening List (ITA)",
+   "fetched_at": "2026-11-21 03:19:32+08:00",
+   "source_file_date": "2026-11-19T14:32:00+00:00",
+   "sha256": "265c91da86af92570743a50776ddf643fa0ac9ae007108d8504b937445ad7460",
+   "count": 26297
+  },
+  {
+   "source": "EU",
+   "name": "EU Financial Sanctions Files",
+   "fetched_at": "2026-11-21 03:19:32+08:00",
+   "source_file_date": "2026-11-20T16:51:00.798+01:00",
+   "sha256": "3eea03e34a447659af3196440a1b5303da7884d41a01f834c38cbec0dee0bf14",
+   "count": 6303
+  },
+  {
+   "source": "MOFCOM",
+   "name": "PRC Ministry of Commerce",
+   "fetched_at": "2026-11-21 03:19:32+08:00",
+   "source_file_date": "2026-08-05",
+   "sha256": "ef640c52efe415f1e04a5b44c2cb593273c5a9210ba56fc91d8cfcb79d4a1ab6",
+   "count": 290
+  },
+  {
+   "source": "OFAC",
+   "name": "U.S. Treasury OFAC",
+   "fetched_at": "2026-11-21 03:19:32+08:00",
+   "source_file_date": "",
+   "sha256": "481d9e70f812c8d4075f2d5c0fc05848f1b82706760e665fbc621b5e98a0dd95",
+   "count": 19595
+  },
+  {
+   "source": "UN",
+   "name": "UN Security Council",
+   "fetched_at": "2026-11-21 03:19:32+08:00",
+   "source_file_date": "2026-11-20T07:50:34.182Z",
+   "sha256": "48bf2a1554d63ac7bf74f9656dcb184dcdc0f34fd8ef7589804933bb816e178e",
+   "count": 1007
+  }
+ ],
+ "attribution": [
+  "Consolidated Screening List: International Trade Administration, U.S. Department of Commerce (trade.gov).",
+  "OFAC Specially Designated Nationals List: U.S. Department of the Treasury.",
+  "EU Financial Sanctions Files: European Commission (data.europa.eu).",
+  "UN Security Council Consolidated List: United Nations.",
+  "PRC Ministry of Commerce announcements: aqygzj.mofcom.gov.cn."
+ ],
+ "count": 33898,
+ "data_sha256": "7a15866a8392798a88183005ca6a4131ab153c2d7637edbd2d56134e356cfc81"
+}
