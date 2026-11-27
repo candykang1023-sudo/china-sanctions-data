@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-28 04:24:30+08:00",
+ "match": {
+  "threshold": 85,
+  "scorer": "max(ratio, token_sort_ratio) on normalized names; names under 4 chars exact only"
+ },
+ "sources": [
+  {
+   "source": "CSL",
+   "name": "U.S. Consolidated Screening List (ITA)",
+   "fetched_at": "2026-11-28 04:24:17+08:00",
+   "source_file_date": "2026-11-23T21:06:43+00:00",
+   "sha256": "1986efc398a5fa3662397ba3ab5489e724d05337a02e95b1e94fef2277dbf2c1",
+   "count": 26339
+  },
+  {
+   "source": "EU",
+   "name": "EU Financial Sanctions Files",
+   "fetched_at": "2026-11-28 04:24:17+08:00",
+   "source_file_date": "2026-11-27T12:03:46.168+01:00",
+   "sha256": "f12da5aeef57e6df3c80cf1f16aede5a70641d279f53553810bdb545820e7938",
+   "count": 6303
+  },
+  {
+   "source": "MOFCOM",
+   "name": "PRC Ministry of Commerce",
+   "fetched_at": "2026-11-28 04:24:17+08:00",
+   "source_file_date": "2026-08-05",
+   "sha256": "ef640c52efe415f1e04a5b44c2cb593273c5a9210ba56fc91d8cfcb79d4a1ab6",
+   "count": 290
+  },
+  {
+   "source": "OFAC",
+   "name": "U.S. Treasury OFAC",
+   "fetched_at": "2026-11-28 04:24:17+08:00",
+   "source_file_date": "",
+   "sha256": "9a1aadd2e94458dc8f7a524e935e786748ff266054b3f3d84a6562fb620b8552",
+   "count": 19629
+  },
+  {
+   "source": "UN",
+   "name": "UN Security Council",
+   "fetched_at": "2026-11-28 04:24:17+08:00",
+   "source_file_date": "2026-11-27T00:00:06.380Z",
+   "sha256": "c6906690b754d583ae08f2cc12c1389934022a795fe94c6271f741da62baf56a",
+   "count": 1008
+  }
+ ],
+ "attribution": [
+  "Consolidated Screening List: International Trade Administration, U.S. Department of Commerce (trade.gov).",
+  "OFAC Specially Designated Nationals List: U.S. Department of the Treasury.",
+  "EU Financial Sanctions Files: European Commission (data.europa.eu).",
+  "UN Security Council Consolidated List: United Nations.",
+  "PRC Ministry of Commerce announcements: aqygzj.mofcom.gov.cn."
+ ],
+ "count": 33941,
+ "data_sha256": "f3f3cb538e627c1b78a9f17a780daa9237e1d95411a5ee9ad57f262f886658c9"
+}
